@@ -26,13 +26,29 @@ label start:
 
         "Go back to sleep, might as well sleep in, it's summer!":
 
-            jump sleep
+            jump sleep_102.a
 
         "Stay up, i'm up any way, may be able to do something useful.":
 
-            jump wake
+            jump wake_102.b
 
 
-label sleep:
+label sleep_102.a:
 
-label wake:
+    a "Well, I might as well get some more sleep. I don't have anything really to do anyway."
+
+    a "I mean, it's summer vacation. The perfect opportunity to sleep in. No school, no work, just me and my bed."
+
+    jump scene_103
+
+label wake_102.b:
+    
+    a "I am already awake, I guess I might as well make the best of it!"
+
+    #add more here
+
+    jump scene_103
+
+label scene_103
+
+    a "place holder" #added to make the code execute
