@@ -49,4 +49,7 @@ label wake:
 
 label scene_103:
 
+    scene bg club #place holder
+    with fade
+
     a "place holder" #added to make the code execute
