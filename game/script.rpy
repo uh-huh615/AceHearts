@@ -26,14 +26,14 @@ label start:
 
         "Go back to sleep, might as well sleep in, it's summer!":
 
-            jump sleep_102.a
+            jump sleep
 
         "Stay up, i'm up any way, may be able to do something useful.":
 
-            jump wake_102.b
+            jump wake
 
 
-label sleep_102.a:
+label sleep:
 
     a "Well, I might as well get some more sleep. I don't have anything really to do anyway."
 
@@ -41,7 +41,7 @@ label sleep_102.a:
 
     jump scene_103
 
-label wake_102.b:
+label wake:
     
     a "I am already awake, I guess I might as well make the best of it!"
 
