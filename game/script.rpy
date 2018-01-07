@@ -18,8 +18,6 @@ label start:
 
     a "Wait, no, it's summer vacation. Phew, thought I was going to be in a lot of trouble"
 
-    "It's a question that I've been meaning to ask a certain someone."
-
     menu:
 
         "As I realize this, I decide to..."
