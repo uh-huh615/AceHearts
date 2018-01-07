@@ -7,9 +7,9 @@ define a = Character('Alex', color="#28cd71")
 label start:
 
     # Start by playing some music.
-    play music "illurock.opus"
+    play music "illurock.opus" #place holder
 
-    scene bg lecturehall
+    scene bg lecturehall #place holder
     with fade
 
     "I wake up slowly, before jolting forward in my bed."
