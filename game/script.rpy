@@ -49,6 +49,6 @@ label wake:
 
     jump scene_103
 
-label scene_103
+label scene_103:
 
     a "place holder" #added to make the code execute
