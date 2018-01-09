@@ -1,5 +1,5 @@
 # Declare characters used by this game.
-define Alex = Character('Alex', color="#28cd71")
+define alex = Character('Alex', color="#014420")
 
 #Define other variables here
 
